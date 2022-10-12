@@ -1,0 +1,122 @@
+.header {
+    padding: 1px;
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
+}
+
+.header-title {
+    font-family: var(--header-text-font);
+    font-size: var(--header-text-height);
+    text-align: center;
+}
+
+.footer-quote {
+    font-size: var(--responsive-quotes-height);
+    font-family: var(--quote-text-font);
+    font-weight: bold;
+    color: var(--quote-text-color);
+}
+
+
+.hero {
+    background-image: var(--hero-bg-image);
+    background-color: var(--bg-color);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section-carrosel {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.carousel {
+    width: 50%;
+    padding: 5 0%;
+
+}
+
+.about {
+    padding: 1px;
+    background-color: var(--bg-color);
+
+}
+
+.about-title {
+    font-family: var(--header-text-font);
+    font-size: var(--header-text-height);
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+.about-quote {
+    padding: 0 5%;
+    font-size: 20px;
+    text-align: justify;
+    color: var(--quote-text-color);
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding-bottom: 15px;
+
+}
+.netflix img {
+ 
+   margin: 10px;
+   width: 5%;
+   border-radius: 20px;
+   
+
+}
+.footer {
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: var(--quote-text-color);
+    min-height: 8rem;
+    border-top: 2px solid #969693;
+}
+
+.footer-quote {
+    font-size: var(--title-height);
+}
+
+.footer-quote,
+.footer-content {
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+
+    .header-title {
+        text-align: left;
+        margin: 0 0 0 24px;
+    }
+
+    .hero {
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .footer-quote {
+        font-size: var(--quotes-height);
+    }
+
+    .footer-quote,
+    .footer-content {
+        text-align: left;
+        /* margin: 24px; */
+    }
+    .netflix {
+        height: 10vh;
+        background-attachment: fixed;
+    }
+}
