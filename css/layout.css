@@ -1,0 +1,15 @@
+.container-fluid {
+    background-color: var(--bg-color);
+    font-family: var(--text-font);
+    color: var(--main-text-color);
+    font-size: var(--responsive-text-height);  
+    min-height: 100vh;
+}
+ 
+ 
+@media (min-width: 800px) {
+ 
+    .container-fluid {
+        font-size: var(--text-height);
+    }
+}
