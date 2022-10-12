@@ -1,0 +1,27 @@
+ 
+ :root {
+ 
+    /* COLORS */
+    --bg-color: #3b3f49;
+    --bg-color-cell-one:#FBFF00;
+    --bg-color-cell-two:#8E8F6E;
+    --quote-text-color: #99B5F6 ;
+    --main-text-color:#FBFF00;
+    /*  #3484C2; */
+ 
+    /* FONTS */                                                                  
+    --header-text-font: 'Oswald', sans-serif;
+    --quote-text-font: 'Lato', sans-serif;
+    --text-font: 'Dosis', sans-serif;
+    --header-text-height: 42px;
+    --text-height: 16px;
+    --quotes-height: 24px;
+    --title-height: 36px;
+    --responsive-text-height: 14px;
+    --responsive-quotes-height: 14px;
+    --responsive-title-height: 24px;
+ 
+    /* IMAGES */
+    --hero-bg-image: url("../foto/capaB99.jpg");
+    
+   }
